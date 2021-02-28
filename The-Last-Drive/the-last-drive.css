@@ -11,8 +11,11 @@
 }
 
 /* Colors
-greyish #d0d8de
-dark blue #143c58 */
+dark brown #98603a
+darker brown #755a4a
+light brown #f6b362 
+yellow #fddc7d
+*/
 
 /* Sheet container */
 
@@ -63,7 +66,7 @@ button[type="roll"].btn::before, button[type="action"].btn::before {
 }
 
 button[type="roll"]:hover, button[type="action"]:hover {
-  color: #669999;
+  color: #98603a;
 }
 
 label {
@@ -124,8 +127,7 @@ input[type="checkbox"]+span, input[type="radio"]+span {
 }
 
 .sheet-logo {
-  /*background: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/logo_large.png");*/
-  background: url("https://agilepraxis.de/wp-content/uploads/2021/01/logo_large.png");
+  background: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-drive/The-Last-Drive/Assets/logo.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
   margin-bottom: 5px;
@@ -262,7 +264,7 @@ input[type="radio"].sheet-radiobox.sheet-large+span {
 }
 
 input[type="radio"].sheet-radiobox+span {
-  background: #669999;
+  background: #98603a;
 }
 
 input.sheet-zero:checked~input[type="radio"].sheet-radiobox+span, input.sheet-radiobox:checked~input[type="radio"].sheet-radiobox+span {
@@ -307,7 +309,7 @@ input[type="checkbox"].sheet-squarebox+span {
 }
 
 input[type="checkbox"].sheet-squarebox:checked+span {
-  background: #669999;
+  background: #98603a;
 }
 
 
@@ -338,12 +340,12 @@ input[type="checkbox"].sheet-rectbox+span {
 }
 
 input[type="checkbox"].sheet-rectbox:checked+span {
-  background: #669999;
+  background: #98603a;
 }
 
 
 /*input[type="checkbox"].sheet-squarebox:checked ~ .sheet-colored-if-checked {
-  color: #669999;
+  color: #98603a;
 }
 */
 
@@ -385,7 +387,7 @@ input[type="checkbox"].sheet-circlebox+span {
 }
 
 input[type="checkbox"].sheet-circlebox:checked+span {
-  background: #669999;
+  background: #98603a;
 }
 
 input[type="checkbox"].sheet-circlebox+span {
@@ -504,7 +506,15 @@ input[type="checkbox"].sheet-diamondbox+span {
 }
 
 input[type="checkbox"].sheet-circlebox.sheet-fakeradio+span {
-  background: #669999;
+  background: #98603a;
+}
+
+input[type="checkbox"].sheet-diamondbox.sheet-fakeradio+span {
+  background: #98603a;
+}
+
+.sheet-fakeradio:checked~input[type="checkbox"].sheet-diamondbox.sheet-fakeradio+span {
+  background: white;
 }
 
 .sheet-fakeradio:checked~input[type="checkbox"].sheet-circlebox.sheet-fakeradio+span {
@@ -512,11 +522,11 @@ input[type="checkbox"].sheet-circlebox.sheet-fakeradio+span {
 }
 
 input[type="checkbox"].sheet-squarebox.sheet-fakeradio+span {
-  background: #669999;
+  background: #98603a;
 }
 
 input[type="checkbox"].sheet-rectbox.sheet-fakeradio+span {
-  background: #669999;
+  background: #98603a;
 }
 
 .sheet-fakeradio:checked~input[type="checkbox"].sheet-squarebox.sheet-fakeradio+span {
@@ -528,7 +538,7 @@ input[type="checkbox"].sheet-rectbox.sheet-fakeradio+span {
 }
 
 input[type="checkbox"].sheet-squarebox.sheet-fakeradio2+span {
-  background: #669999;
+  background: #98603a;
 }
 
 .sheet-fakeradio2:checked~input[type="checkbox"].sheet-squarebox.sheet-fakeradio2+span {
@@ -819,7 +829,7 @@ input.sheet-zero:checked+span {
 
 .sheet-info .sheet-infobox .sheet-title {
   display: grid;
-  background-color: #cad8dc;
+  background-color: #f6b362;
   align-content: center;
 }
 
@@ -827,7 +837,7 @@ input.sheet-zero:checked+span {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Rye", serif;
-  background-color: #cad8dc;
+  background-color: #f6b362;
   padding: 3px;
   padding: 3px 5px;
   font-size: 12.5px;
@@ -890,19 +900,19 @@ input.sheet-zero:checked+span {
 
 
 button[type="roll"].sheet-domain-button-command {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/command.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-drive/The-Last-Drive/Assets/saloon.png");
 }
 
 button[type="roll"].sheet-domain-button-tactical {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/tactical.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-drive/The-Last-Drive/Assets/bullets.png");
 }
 
 button[type="roll"].sheet-domain-button-operations {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/operations.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-drive/The-Last-Drive/Assets/saddle.png");
 }
 
 button[type="roll"].sheet-domain-button-systems {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/systems.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-drive/The-Last-Drive/Assets/talk.png");
 }
 
 .charsheet .sheet-domains {
@@ -930,7 +940,7 @@ button[type="roll"].sheet-domain-button-systems {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Rye", serif;
-  background-color: #cad8dc;
+  background-color: #f6b362;
   padding: 3px;
   display: block;
   text-align: center;
@@ -1006,7 +1016,7 @@ button[type="roll"].sheet-domain-button-systems {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Rye", serif;
-  background-color: #d0d8de;
+  background-color: #fddc7d;
   padding: 3px;
   position: relative;
   padding: 5px 10px;
@@ -1080,7 +1090,7 @@ button[type="roll"].sheet-domain-button-systems {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Rye", serif;
-  background-color: #cad8dc;
+  background-color: #f6b362;
   padding: 3px;
   position: relative;
   padding: 5px 10px;
@@ -1392,7 +1402,7 @@ button[type="roll"].sheet-domain-button-systems {
 
 .sheet-advances .sheet-boon {
   display: flex;
-  background-color: #cad8dc;
+  background-color: #f6b362;
   padding: 4px;
   align-items: center;
   margin: 5px 0 0 3px;
@@ -1656,7 +1666,7 @@ button[type="roll"].sheet-domain-button-systems {
 }
 
 .sheet-roller .sheet-strife-level .sheet-checks input:checked+span {
-  color: #669999;
+  color: #98603a;
 }
 
 .sheet-roller button[type="roll"].sheet-strife-button {
@@ -1719,7 +1729,7 @@ button[type="roll"].sheet-domain-button-systems {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Rye", serif;
-  background: #cad8dc;
+  background: #f6b362;
   padding: 2px 8px;
   width: 150px;
   margin-left: 10px;
@@ -1752,7 +1762,7 @@ button[type="roll"].sheet-domain-button-systems {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Rye", serif;
-  background: #cad8dc;
+  background: #f6b362;
   padding: 2px 8px;
   width: 150px;
   margin-left: 10px;
@@ -2129,7 +2139,7 @@ button[type="roll"].sheet-domain-button-systems {
   display: grid;
   grid-template-columns: 20px 40px 90px;
   column-gap: 3px;
-  background-color: #cad8dc;
+  background-color: #f6b362;
   padding: 3px;
   position: relative;
   padding: 5px 3px;
