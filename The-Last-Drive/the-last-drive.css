@@ -1503,7 +1503,7 @@ button[type="roll"].sheet-domain-button-systems {
 }
 
 .sheet-rolltemplate-stormfury-pilot .sheet-prevails~.sheet-holder {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheetsthe-last-drive/The-Last-Drive/Assets/rolltemplate/cowpoke_prevails.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-drive/The-Last-Drive/Assets/rolltemplate/cowpoke_prevails.png");
   grid-template: 33px 45px 35px 200px/ 120px 1fr;
   height: 407px;
 }
@@ -1539,7 +1539,7 @@ button[type="roll"].sheet-domain-button-systems {
 }
 
 .sheet-rolltemplate-stormfury-thread .sheet-holder {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheetsthe-last-drive/The-Last-Drive/Assets/rolltemplate/bg_thread.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-drive/The-Last-Drive/Assets/rolltemplate/bg_thread.png");
   padding: 84px 20px 29px 21px;
   grid-template: 39px 32px 47px / auto;
   height: 252px;
