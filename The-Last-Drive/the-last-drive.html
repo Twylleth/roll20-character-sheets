@@ -183,9 +183,8 @@
       <div class="divider"></div>
       <div class="commendations">
         <input class="title" type="text" spellcheck="false" name="attr_commendations_label" value="Commendations" />
-        <!-- missing name for translation -->
         <fieldset class="repeating_deeds">
-          <input class="squarebox" type="checkbox" name="attr_commendation_check" value="1" /><span></span>
+        <!--  <input class="squarebox" type="checkbox" name="attr_commendation_check" value="1" /><span></span>-->
           <div class="auto-expand deed-name"><span name="attr_commendation_name"></span>
             <textarea spellcheck="false" name="attr_commendation_name" data-i18n-placeholder="commendation"></textarea>
           </div>
@@ -194,7 +193,6 @@
     </div>
     <div class="title-vertical recite">
       <input class="title" type="text" spellcheck="false" name="attr_recite_deeds_label"="Recite your deeds" />
-      <!-- missing name for translation -->
       <div class="content">
         <div class="auto-expand"><span name="attr_recite_top_label">How does your Role, Burn (an added Domain), or
             Charges manifest in the contest?</span>
@@ -309,6 +307,18 @@
             <input class="diamondbox" type="checkbox" name="attr_favored_property_2" value="1" /><span></span>
           </div>
         </div>
+        <input class="hider" type="hidden" name="attr_boons_8_check_1" value="0" />
+        <div class="chargebox">
+          <input class="header" type="text" spellcheck="false" name="attr_favored_property_label" value="Favored Property" />
+          <input type="textarea" spellcheck="false" value=""/>
+          <div class="charge">
+            <input class="diamondbox" type="checkbox" name="attr_favored_property2_1" value="1" /><span></span>
+          </div>
+          <div class="charge">
+            <input class="diamondbox" type="checkbox" name="attr_favored_property2_2" value="1" /><span></span>
+          </div>
+        </div>
+  
       </div>
       <div class="burn">
         <div class="burn-fate">
@@ -351,7 +361,7 @@
         </div>
       </div>
       <div class="flightsystems right">
-        <div class="exprbox">
+        <div class="exprbox infamous">
           <input class="header" type="text" spellcheck="false" name="attr_honor_label" value="Honor" />
           <input class="hidden fakeradio" type="checkbox" name="attr_honor_expr" value="0" checked="checked" />
           <input class="diamondbox fakeradio" type="checkbox" name="attr_honor_expr" value="1" /><span></span>
@@ -364,7 +374,7 @@
             <input class="circlebox" type="checkbox" name="attr_honor_burn" value="1" /><span></span>
           </div>-->
         </div>
-        <div class="exprbox">
+        <div class="exprbox infamous">
           <input class="header" type="text" spellcheck="false" name="attr_passion_label" value="Passion" />
           <input class="hidden fakeradio" type="checkbox" name="attr_passion_expr" value="0" checked="checked" />
           <input class="diamondbox fakeradio" type="checkbox" name="attr_passion_expr" value="1" /><span></span>
@@ -377,7 +387,7 @@
             <input class="circlebox" type="checkbox" name="attr_passion_burn" value="1" /><span></span>
           </div>-->
         </div>
-        <div class="exprbox">
+        <div class="exprbox infamous">
           <input class="header" type="text" spellcheck="false" name="attr_wrath_label" value="Wrath" />
           <input class="hidden fakeradio" type="checkbox" name="attr_wrath_expr" value="0" checked="checked" />
           <input class="diamondbox fakeradio" type="checkbox" name="attr_wrath_expr" value="1" /><span></span>
@@ -390,7 +400,7 @@
             <input class="circlebox" type="checkbox" name="attr_wrath_burn" value="1" /><span></span>
           </div>-->
         </div>
-        <div class="exprbox">
+        <div class="exprbox infamous">
           <input class="header" type="text" spellcheck="false" name="attr_forged_label" value="Forged" />
           <input class="hidden fakeradio" type="checkbox" name="attr_forged_expr" value="0" checked="checked" />
           <input class="diamondbox fakeradio" type="checkbox" name="attr_forged_expr" value="1" /><span></span>
@@ -404,14 +414,13 @@
           </div> -->
         </div>
         <div class="divider"></div>
-        <div class="chargebox">
-          <input class="header" type="text" spellcheck="false" name="attr_dark_label" value="Dark" />
-          <input class="hidden fakeradio" type="checkbox" name="attr_dark" value="0" checked="checked" />
-          <input class="rectbox fakeradio" type="checkbox" name="attr_dark" value="1" /><span></span>
-          <input class="rectbox fakeradio" type="checkbox" name="attr_dark" value="2" /><span></span>
-          <input class="rectbox fakeradio" type="checkbox" name="attr_dark" value="3" /><span></span>
-          <input class="rectbox fakeradio" type="checkbox" name="attr_dark" value="4" /><span></span>
-          <input class="rectbox fakeradio" type="checkbox" name="attr_dark" value="5" /><span></span>
+        <div class="chargebox infamous">
+          <input class="header" type="text" spellcheck="false" name="attr_infamy_label" value="Infamy" />
+          <input class="hidden fakeradio" type="checkbox" name="attr_infamy" value="0" checked="checked" />
+          <input class="rectbox fakeradio" type="checkbox" name="attr_infamy" value="1" /><span></span><label>Notorious</label>
+          <input class="rectbox fakeradio" type="checkbox" name="attr_infamy" value="2" /><span></span><label>Nefarious</label>
+          <input class="rectbox fakeradio" type="checkbox" name="attr_infamy" value="3" /><span></span><label>Vile</label>
+          <input class="rectbox fakeradio" type="checkbox" name="attr_infamy" value="4" /><span></span><label>Fiend</label>
         </div>
       </div>
     </div>
@@ -585,10 +594,16 @@
             <textarea spellcheck="false" name="attr_boons_7_label">When you spend Divine Favor, roll +2d4 and keep the highest.</textarea>
           </div>
         </div>
+        <div class="boon">
+          <input class="squarebox" type="checkbox" name="attr_boons_8_check_1" value="1"/><span></span>
+          <div class="auto-expand"><span name="attr_boons_8_label">When you spend Divine Favor, roll +2d4 and keep the highest.</span>
+            <textarea spellcheck="false" name="attr_boons_8_label">When you spend Divine Favor, roll +2d4 and keep the highest.</textarea>
+          </div>
+        </div>
   </div>
     </div>
     <div class="character-copyright">
-      <label>Images of Stormfuries logo, the Temptest and the Storm are &copy; John Harper.</label>
+      <label></label>
     </div>
   </div>
 
@@ -1396,19 +1411,13 @@ const kLabelAttributes = [
   "commendations",
   "boons",
   "boons_1",
-  "boons_1",
-  "boons_2",
   "boons_2",
   "boons_3",
-  "boons_3",
-  "boons_4",
   "boons_4",
   "boons_5",
-  "boons_5",
-  "boons_6",
   "boons_6",
   "boons_7",
-  "boons_7",
+  "boons_8",
   "thread_advantage",
   "plus_thread_level",
   "mission_logs",

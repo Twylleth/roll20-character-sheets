@@ -1151,6 +1151,11 @@ button[type="roll"].sheet-domain-button-systems {
   font-weight: bold;
 }
 
+/* Infamous color override */
+.sheet-infamous {
+  background: #bbb;
+ }
+ 
 .sheet-recite {
   position: relative;
   left: -17px;
@@ -1263,7 +1268,7 @@ button[type="roll"].sheet-domain-button-systems {
   min-height: 14px;
   margin-top: 5px;
   padding: 3px;
-  background: #ddd;
+  background: #fddc7d;
 }
 
 
@@ -1365,7 +1370,7 @@ button[type="roll"].sheet-domain-button-systems {
 
 .sheet-advances .sheet-title {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 8px;
   font-family: "Rye", serif;
   padding-left: 2px;
   margin-bottom: 5px;
@@ -1402,7 +1407,7 @@ button[type="roll"].sheet-domain-button-systems {
 
 .sheet-advances .sheet-boon {
   display: flex;
-  background-color: #f6b362;
+  background-color: #fddc7d;
   padding: 4px;
   align-items: center;
   margin: 5px 0 0 3px;
