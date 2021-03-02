@@ -1428,7 +1428,7 @@ button[type="roll"].sheet-domain-button-systems {
 
 
 .sheet-rolltemplate-stormfury-pilot .sheet-holder, .sheet-rolltemplate-stormfury-thread .sheet-holder, .sheet-rolltemplate-stormfury-stormcraft .sheet-holder {
-  color: white;
+  color: #fddc7d;
   position: relative;
   font-size: 14px;
   line-height: 1.2;
@@ -1459,7 +1459,7 @@ button[type="roll"].sheet-domain-button-systems {
 }
 
 .sheet-rolltemplate-stormfury-pilot .sheet-type, .sheet-rolltemplate-stormfury-thread .sheet-type {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/rolltemplate/type_any_domain.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/rolltemplate/type_anydomain.png");
   width: 93px;
   height: 33px;
   background-size: 100% 100%;
@@ -1467,19 +1467,19 @@ button[type="roll"].sheet-domain-button-systems {
 }
 
 .sheet-rolltemplate-stormfury-pilot .sheet-type.sheet-type-command, .sheet-rolltemplate-stormfury-thread .sheet-type.sheet-type-command {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/rolltemplate/type_command.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/rolltemplate/type_saloons_words.png");
 }
 
 .sheet-rolltemplate-stormfury-pilot .sheet-type.sheet-type-tactical, .sheet-rolltemplate-stormfury-thread .sheet-type.sheet-type-tactical {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/rolltemplate/type_tactical.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/rolltemplate/type_irons_lead.png");
 }
 
 .sheet-rolltemplate-stormfury-pilot .sheet-type.sheet-type-operations, .sheet-rolltemplate-stormfury-thread .sheet-type.sheet-type-operations {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/rolltemplate/type_operations.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/rolltemplate/type_saddles_dust.png");
 }
 
 .sheet-rolltemplate-stormfury-pilot .sheet-type.sheet-type-systems, .sheet-rolltemplate-stormfury-thread .sheet-type.sheet-type-systems {
-  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/stormfuries/Storm-Furies/Assets/rolltemplate/type_systems.png");
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/rolltemplate/type_knuckles_sweat.png");
  }
 
 .sheet-rolltemplate-stormfury-pilot .inlinerollresult, .sheet-rolltemplate-stormfury-thread .inlinerollresult {
@@ -1521,7 +1521,7 @@ button[type="roll"].sheet-domain-button-systems {
 }
 
 .sheet-rolltemplate-stormfury-pilot .sheet-result {
-  color: white;
+  color: #fddc7d;
   padding-left: 53px;
 }
 
@@ -1551,7 +1551,7 @@ button[type="roll"].sheet-domain-button-systems {
 }
 
 .sheet-rolltemplate-stormfury-thread .sheet-roll {
-  color: black;
+  color: #fddc7d;
   padding-left: 127px;
 }
 
