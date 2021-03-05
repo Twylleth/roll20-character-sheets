@@ -827,6 +827,13 @@ input.sheet-zero:checked+span {
   grid-template: auto / 34% 1fr;
 }
 
+.sheet-hoss {
+  background-image: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/horse.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+}
+
 .sheet-info .sheet-infobox .sheet-title {
   display: grid;
   background-color: #f6b362;
@@ -2000,7 +2007,7 @@ button[type="roll"].sheet-domain-button-systems {
   grid-column: 1;
   grid-row: 2;
   align-self: stretch;
-  background: url("https://agilepraxis.de/wp-content/uploads/2021/01/the_storm.png");
+  background: url("https://raw.githubusercontent.com/Twylleth/roll20-character-sheets/the-last-ride/The-Last-Ride/Assets/rolltemplate/going_home.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
   margin-bottom: 5px;
